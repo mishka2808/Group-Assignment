@@ -1,0 +1,35 @@
+Parameters for No Drag:
+Ax = -20    #Point A where the mass starts
+Ay = 0
+Bx = 20     #Point B for other attached point
+By = 0
+g  = 9.8    #gravity
+L  = 60     #length of bungee cord
+m  = 90     #mass
+mu = 0      #air friction
+k  = 10     #spring constant for bungee cord
+N  = 480    #sim steps
+dt = 0.25   #time step
+t  = 0      #initial time
+x  = Ax     #initial x pos of mass
+y  = Ay     #initial y pos of mass
+vx = 0      #initial x velocity
+vy = 0      #initial y velocity
+
+Parameters for Drag:
+Ax = -20    #Point A where the mass starts
+Ay = 0
+Bx = 20     #Point B for other attached point
+By = 0
+g  = 9.8    #gravity
+L  = 60     #length of bungee cord
+m  = 90     #mass
+mu = 0.77   #air friction
+k  = 10     #spring constant for bungee cord
+N  = 480    #sim steps
+dt = 0.25   #time step
+t  = 0      #initial time
+x  = Ax     #initial x pos of mass
+y  = Ay     #initial y pos of mass
+vx = 0      #initial x velocity
+vy = 0      #initial y velocity
